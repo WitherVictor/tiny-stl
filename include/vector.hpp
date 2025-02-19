@@ -78,7 +78,7 @@ public:
         return *(m_ptr + n);
     }
 
-    //  隐式预置 operator==
+    //  额外隐式预置 operator==
     friend auto operator<=>(const vector_iterator& first, const vector_iterator& last) = default;
 private:
     T* m_ptr{};
