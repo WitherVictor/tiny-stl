@@ -1,5 +1,9 @@
-#include <iostream>
+#include <print>
+
+#include "vector.hpp"
 
 int main(int, char**){
-    std::cout << "Hello, from tiny-stl!\n";
+    tinystl::vector<int> v{1, 2, 3, 4, 5};
+
+
 }
